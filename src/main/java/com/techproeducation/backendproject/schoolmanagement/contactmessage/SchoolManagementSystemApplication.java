@@ -1,4 +1,4 @@
-package com.techproeducation.backendproject.initialwork;
+package com.techproeducation.backendproject.schoolmanagement.contactmessage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
