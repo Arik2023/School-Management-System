@@ -1,65 +1,56 @@
-"2024-02-01 06:10:48,940 INFO  [restartedMain] com.techproeducation.backendproject.schoolmanagement.contactmessage.SchoolManagementSystemApplication:Starting SchoolManagementSystemApplication using Java 18.0.1.1 on Cagatays-MBP.cust.communityfibre.co.uk with PID 16672 (/Users/cagatayarik/IdeaProjects/School-Management-System/target/classes started by cagatayarik in /Users/cagatayarik/IdeaProjects/School-Management-System)
-""2024-02-01 06:10:48,942 INFO  [restartedMain] com.techproeducation.backendproject.schoolmanagement.contactmessage.SchoolManagementSystemApplication:No active profile set, falling back to 1 default profile: "default"
-""2024-02-01 06:10:49,090 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-""2024-02-01 06:10:49,091 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-""2024-02-01 06:10:50,329 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2024-02-01 06:10:50,406 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
-""2024-02-01 06:10:51,539 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
-""2024-02-01 06:10:51,549 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
-""2024-02-01 06:10:51,549 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.68]
-""2024-02-01 06:10:51,615 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
-""2024-02-01 06:10:51,615 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2523 ms
-""2024-02-01 06:10:51,890 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
-""2024-02-01 06:10:51,933 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.12.Final
-""2024-02-01 06:10:52,054 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-""2024-02-01 06:10:52,185 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
-""2024-02-01 06:10:52,406 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
-""2024-02-01 06:10:52,419 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
-""2024-02-01 06:10:52,929 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2024-02-01 06:10:52,934 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2024-02-01 06:10:54,376 WARN  [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration:
-
-Using generated security password: 6786fd3f-7bd6-4300-ab38-fa17171ac5bb
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-""2024-02-01 06:10:54,461 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain:Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7f3dc040, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@527232d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@517492d2, org.springframework.security.web.header.HeaderWriterFilter@4987d59b, org.springframework.security.web.csrf.CsrfFilter@57c3e1f7, org.springframework.security.web.authentication.logout.LogoutFilter@50355c2d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5a537a81, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@47f4f137, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6d390f11, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@41dd97e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ad60c6d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@96978f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34a33e41, org.springframework.security.web.session.SessionManagementFilter@652575bc, org.springframework.security.web.access.ExceptionTranslationFilter@6a479a4c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38940688]
-""2024-02-01 06:10:54,609 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
-""2024-02-01 06:10:54,669 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
-""2024-02-01 06:10:54,693 INFO  [restartedMain] com.techproeducation.backendproject.schoolmanagement.contactmessage.SchoolManagementSystemApplication:Started SchoolManagementSystemApplication in 6.383 seconds (JVM running for 7.217)
-""2024-02-01 06:11:03,583 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
-""2024-02-01 06:11:03,590 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
-""2024-02-01 06:11:03,600 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
-""2024-02-01 06:11:06,414 INFO  [restartedMain] com.techproeducation.backendproject.schoolmanagement.contactmessage.SchoolManagementSystemApplication:Starting SchoolManagementSystemApplication using Java 18.0.1.1 on Cagatays-MBP.cust.communityfibre.co.uk with PID 16697 (/Users/cagatayarik/IdeaProjects/School-Management-System/target/classes started by cagatayarik in /Users/cagatayarik/IdeaProjects/School-Management-System)
-""2024-02-01 06:11:06,417 INFO  [restartedMain] com.techproeducation.backendproject.schoolmanagement.contactmessage.SchoolManagementSystemApplication:No active profile set, falling back to 1 default profile: "default"
-""2024-02-01 06:11:06,546 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-""2024-02-01 06:11:06,547 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-""2024-02-01 06:11:07,790 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2024-02-01 06:11:07,867 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
-""2024-02-01 06:11:09,002 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
-""2024-02-01 06:11:09,011 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
-""2024-02-01 06:11:09,011 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.68]
-""2024-02-01 06:11:09,083 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
-""2024-02-01 06:11:09,083 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2535 ms
-""2024-02-01 06:11:09,306 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
-""2024-02-01 06:11:09,344 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.12.Final
-""2024-02-01 06:11:09,473 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-""2024-02-01 06:11:09,604 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
-""2024-02-01 06:11:09,779 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
-""2024-02-01 06:11:09,793 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
-""2024-02-01 06:11:10,299 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2024-02-01 06:11:10,304 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2024-02-01 06:11:11,771 WARN  [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration:
-
-Using generated security password: f6b156f8-7e2a-42f0-9bdc-2a0c1a8b2046
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-""2024-02-01 06:11:11,861 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain:Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b708594, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f81a691, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ded3d84, org.springframework.security.web.header.HeaderWriterFilter@d26689e, org.springframework.security.web.csrf.CsrfFilter@16165e49, org.springframework.security.web.authentication.logout.LogoutFilter@2fe2dc96, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@48aeeb45, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7b9a437d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4abd3eec, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@25ce3d66, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@221503d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64583dd3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36c130c5, org.springframework.security.web.session.SessionManagementFilter@47f4f137, org.springframework.security.web.access.ExceptionTranslationFilter@7c7e890d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@498023ee]
-""2024-02-01 06:11:11,977 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
-""2024-02-01 06:11:12,040 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
-""2024-02-01 06:11:12,065 INFO  [restartedMain] com.techproeducation.backendproject.schoolmanagement.contactmessage.SchoolManagementSystemApplication:Started SchoolManagementSystemApplication in 6.312 seconds (JVM running for 7.018)
-""2024-02-01 06:12:59,125 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
-""2024-02-01 06:12:59,134 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
-""2024-02-01 06:12:59,143 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+"2024-02-06 00:01:56,939 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m16s286ms).
+""2024-02-06 00:19:56,593 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m59s563ms).
+""2024-02-06 00:38:24,711 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m58s67ms).
+""2024-02-06 00:48:51,862 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m57s89ms).
+""2024-02-06 01:02:50,856 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m28s944ms).
+""2024-02-06 01:22:49,536 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m28s621ms).
+""2024-02-06 01:41:08,666 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m19s84ms).
+""2024-02-06 01:58:48,958 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m40s248ms).
+""2024-02-06 02:04:03,070 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s105ms).
+""2024-02-06 02:24:24,554 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m51s438ms).
+""2024-02-06 02:42:30,315 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m5s742ms).
+""2024-02-06 03:02:27,204 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m56s833ms).
+""2024-02-06 03:04:45,815 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m18s610ms).
+""2024-02-06 03:22:43,615 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m57s771ms).
+""2024-02-06 03:40:55,608 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m11s944ms).
+""2024-02-06 04:03:21,776 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m56s112ms).
+""2024-02-06 04:23:20,106 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m58s301ms).
+""2024-02-06 04:43:05,379 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m15s279ms).
+""2024-02-06 05:01:54,984 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m49s555ms).
+""2024-02-06 05:05:55,560 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m561ms).
+""2024-02-06 05:13:26,368 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m767ms).
+""2024-02-06 05:26:09,809 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m43s421ms).
+""2024-02-06 08:32:59,877 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m45s976ms).
+""2024-02-06 08:45:27,964 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s968ms).
+""2024-02-06 08:52:28,010 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m30s21ms).
+""2024-02-06 08:53:34,489 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s481ms).
+""2024-02-06 08:58:06,254 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m1s758ms).
+""2024-02-06 09:00:29,652 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m23s396ms).
+""2024-02-06 09:12:03,640 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m3s940ms).
+""2024-02-06 09:15:37,041 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+""2024-02-06 09:15:37,148 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+""2024-02-06 09:15:37,176 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+""2024-02-06 09:15:46,796 INFO  [restartedMain] com.project.schoolmanagment.SchoolManagementApplication:Starting SchoolManagementApplication using Java 18.0.1.1 on Cagatays-MBP.cust.communityfibre.co.uk with PID 69605 (/Users/cagatayarik/IdeaProjects/School-Management-System/target/classes started by cagatayarik in /Users/cagatayarik/IdeaProjects/School-Management-System)
+""2024-02-06 09:15:46,798 INFO  [restartedMain] com.project.schoolmanagment.SchoolManagementApplication:No active profile set, falling back to 1 default profile: "default"
+""2024-02-06 09:15:46,918 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2024-02-06 09:15:46,918 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2024-02-06 09:15:48,509 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2024-02-06 09:15:48,658 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 141 ms. Found 6 JPA repository interfaces.
+""2024-02-06 09:15:49,992 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+""2024-02-06 09:15:50,005 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+""2024-02-06 09:15:50,006 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.68]
+""2024-02-06 09:15:50,081 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+""2024-02-06 09:15:50,081 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 3161 ms
+""2024-02-06 09:15:50,420 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+""2024-02-06 09:15:50,466 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.12.Final
+""2024-02-06 09:15:50,602 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2024-02-06 09:15:50,759 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+""2024-02-06 09:15:50,968 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+""2024-02-06 09:15:50,983 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+""2024-02-06 09:15:52,380 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2024-02-06 09:15:52,392 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2024-02-06 09:15:54,176 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain:Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@63ec7ff2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@175f3a7d, org.springframework.security.web.context.SecurityContextPersistenceFilter@388e3770, org.springframework.security.web.header.HeaderWriterFilter@4808f765, org.springframework.web.filter.CorsFilter@6c3c5a71, org.springframework.security.web.authentication.logout.LogoutFilter@77ffc81b, com.project.schoolmanagment.security.jwt.AuthTokenFilter@43b8e33f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31e0bf37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@221a06fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d1b4d5d, org.springframework.security.web.session.SessionManagementFilter@2986d633, org.springframework.security.web.access.ExceptionTranslationFilter@566b2027, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5334fe6c]
+""2024-02-06 09:15:54,489 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+""2024-02-06 09:15:54,540 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+""2024-02-06 09:15:54,561 INFO  [restartedMain] com.project.schoolmanagment.SchoolManagementApplication:Started SchoolManagementApplication in 8.575 seconds (JVM running for 9.599)
 "
